@@ -1,0 +1,15 @@
+<svg width="180" height="54" viewBox="0 0 150 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ea580c" />
+      <stop offset="30%" stop-color="#f97316" />
+      <stop offset="70%" stop-color="#fb923c" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+  </defs>
+  <text x="10" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#c2410c" letter-spacing="2" opacity="0.3" transform="translate(1, 1)" font-style="italic">CONVIX</text>
+  <text x="10" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="800" fill="url(#textGradient)" letter-spacing="2" font-style="italic">CONVIX</text>
+  <text x="10" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="800" fill="white" letter-spacing="2" opacity="0.2" transform="translate(0, -1)" font-style="italic">CONVIX</text>
+  <line x1="10" y1="42" x2="140" y2="42" stroke="url(#textGradient)" stroke-width="3" stroke-linecap="round" opacity="0.7" />
+  <line x1="10" y1="42" x2="50" y2="42" stroke="#fb923c" stroke-width="3" stroke-linecap="round" opacity="0.5" />
+</svg>
