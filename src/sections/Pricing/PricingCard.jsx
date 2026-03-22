@@ -11,7 +11,7 @@ export default function PricingCard({card , paymentPlan}) {
   // computing price.....
 const price = card.price[paymentPlan]=== "Free" ?card.price[paymentPlan] : "$" + card.price[paymentPlan];
   // computing payment plan text.....
-
+const paymentPlanText = card.price[paymentPlan] === "Free" ? "Free" : paymentPlan === "monthly" ? "per month" : "per year";
 
   return (
     <div className={`relative overflow-hidden rounded-2xl bg-orange-500 px-8 pt-8 ${pclass.container}`}>
@@ -29,8 +29,10 @@ const price = card.price[paymentPlan]=== "Free" ?card.price[paymentPlan] : "$" +
       }
       <p className=" opacity-80 mb-12 px-6 py-2 border rounded-2xl max-w-min text-sm text-white">{card.program}</p>
       <div className="flex items-end gap-x-2 mb-2 ">
-        <p className="font-bold text-[3.5rem]/[4rem] text-white tracking-tight">{price}</p>
-        <span className="opacity-50 mb-2  text-white tracking-tight">{"per month"}</span>
+        <p className="font-bold text-[3.5rem]/[4rem] text-white tracking-tight">
+        {card.price[paymentPlan]}
+        </p>
+        <span className="opacity-50 mb-2  text-white tracking-tight">{paymentPlanText}</span>
         </div>
         <p className="text-white">{card.subheading}</p>
         <ul className="flex flex-col gap-y-4  ">

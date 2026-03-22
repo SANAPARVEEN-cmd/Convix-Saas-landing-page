@@ -199,89 +199,89 @@ const testimonials = [
   {
     program: "professional",
     description:
-      "Yadora has been pivotal in helping me connect with others that share my same passions!",
+      "Convix has been instrumental in helping me connect with others who share my passions!",
     image: new URL(
       "../assets/testimonials/testimonial-7.webp",
       import.meta.url
     ),
-    name: "Maria Sanchez",
-    title: "CEO & Founder at Creation LAB's",
+    name: "Elena Rivera",
+    title: "CEO & Founder at Creative Sparks",
   },
   {
     program: "team",
     description:
-      "Sharing my skills with clients around the world has never been easier. Very affordable solution for our team.",
+      "Collaborating with clients globally has never been easier. Convix is an affordable solution for our team.",
     image: new URL(
       "../assets/testimonials/testimonial-6.webp",
       import.meta.url
     ),
-    name: "Nick Ridley",
-    title: "Product lead at EducationWave",
+    name: "Liam Carter",
+    title: "Product Lead at EduWave",
   },
   {
     program: "personal",
     description:
-      "I love how easy and intuitive the platform is. Took me less than a day to get up and started!",
+      "I love how intuitive and simple the platform is. I got started in less than a day!",
     image: new URL(
       "../assets/testimonials/testimonial-10.webp",
       import.meta.url
     ),
-    name: "Asia Moore",
-    title: "Head of HR at inspireUSA",
+    name: "Sophia Bennett",
+    title: "Head of HR at InspireUSA",
   },
   {
     program: "personal",
     description:
-      "Having access to 50 free fantasy reports per month allows my small business to generate leads each month",
+      "Having access to 50 free fantasy reports monthly helps my small business generate consistent leads.",
     image: new URL(
       "../assets/testimonials/testimonial-2.webp",
       import.meta.url
     ),
-    name: "Tina Rodriguez",
-    title: "Tech lead at GE accelerator",
+    name: "Olivia Torres",
+    title: "Tech Lead at GE Accelerator",
   },
   {
     program: "team",
     description:
-      "The free version of Yadora is generous with its offering and has helped fuel our business to new heights!",
+      "The free version of Convix is generous and has helped elevate our business to new heights!",
     image: new URL(
       "../assets/testimonials/testimonial-3.webp",
       import.meta.url
     ),
-    name: "Jai Ahuja",
-    title: "GForce Labs  trader & Founder",
+    name: "Ethan Patel",
+    title: "Founder & Trader at GForce Labs",
   },
   {
     program: "team",
     description:
-      "Yadora’s Customer service has been very gracious in helping me navigate the platform. Loving it so far!",
+      "Convix’s customer support has been amazing in guiding me through the platform. Loving it so far!",
     image: new URL(
       "../assets/testimonials/testimonial-1.webp",
       import.meta.url
     ),
-    name: "Amy Young",
-    title: "Creative director at FertilityHealth",
+    name: "Maya Chen",
+    title: "Creative Director at FertilityHealth",
   },
   {
     program: "personal",
     description:
-      "Getting my music business off the ground has been a breeze with the help of Yadora’s outreach accelerator.",
+      "Launching my music business has been so much easier with Convix’s outreach accelerator.",
     image: new URL(
       "../assets/testimonials/testimonial-5.webp",
       import.meta.url
     ),
-    name: "Tanner Hall",
-    title: "Musician and Solo-prenuer",
+    name: "Noah Hayes",
+    title: "Musician & Solo Entrepreneur",
   },
   {
     program: "team",
     description:
-      "I wish i have known about this platform a year ago. The AI writer empowers our team to edit and revise their work easily.",
+      "I wish I had discovered this platform earlier. Convix’s AI writer makes team edits and revisions seamless.",
     image: new URL(
       "../assets/testimonials/testimonial-8.webp",
       import.meta.url
     ),
-    name: "Diego Perez",
+    name: "Isabella Cruz",
     title: "Analyst at SimplyMade",
   },
 ];
