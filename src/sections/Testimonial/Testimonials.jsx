@@ -9,9 +9,9 @@ export default function Testimonials() {
         <br />
         customers are saying
       </h2>
-      <div>
-        <div>
-          <div>
+      <div className="relative ">
+        <div className="mb-6 overflow-hidden whitespace-nowrap bg-white ">
+          <div className="inline-block animate-translate-x-reverse">
             {testimonials.slice(0, 4).map((testimonial) => (
               <Testimonial key={testimonial.name} testimonial={testimonial} />
             ))}

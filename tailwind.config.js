@@ -29,7 +29,16 @@ export default {
         "accent-200": "#FFCD82",
 
         "white-shade": "#F6F6F6",
-      }
+      },
+     keyframes: {
+  "translate-x-reverse": {
+    from: { transform: "translateX(0%)" },
+    to: { transform: "translateX(-100%)" },
+  }
+},
+animation: {
+  "translate-x-reverse": "translate-x-reverse 5s linear infinite",
+}
     },
   },
   plugins: [],
