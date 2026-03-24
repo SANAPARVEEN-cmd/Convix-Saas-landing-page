@@ -37,7 +37,8 @@ export default {
   }
 },
 animation: {
-  "translate-x-reverse": "translate-x-reverse 5s linear infinite",
+  "translate-x-reverse": "translate-x-reverse 30s linear infinite",
+  "translate-x-reverse-slowed": "translate-x-reverse 50s linear infinite",
 }
     },
   },

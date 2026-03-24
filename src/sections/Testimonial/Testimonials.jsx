@@ -12,7 +12,24 @@ export default function Testimonials() {
       <div className="relative ">
         <div className="mb-6 overflow-hidden whitespace-nowrap bg-white ">
           <div className="inline-block animate-translate-x-reverse">
-            {testimonials.slice(0, 4).map((testimonial) => (
+            {testimonials.slice(0,4).map((testimonial) => (
+              <Testimonial key={testimonial.name} testimonial={testimonial} />
+            ))}
+          </div>
+          <div className="inline-block animate-translate-x-reverse">
+            {testimonials.slice(0,4).map((testimonial) => (
+              <Testimonial key={testimonial.name} testimonial={testimonial} />
+            ))}
+          </div>
+        </div>
+         <div className="mb-6 overflow-hidden whitespace-nowrap bg-white ">
+          <div className="inline-block animate-translate-x-reverse-slowed">
+            {testimonials.slice(0,4).map((testimonial) => (
+              <Testimonial key={testimonial.name} testimonial={testimonial} />
+            ))}
+          </div>
+          <div className="inline-block animate-translate-x-reverse-slowed">
+            {testimonials.slice(0,4).map((testimonial) => (
               <Testimonial key={testimonial.name} testimonial={testimonial} />
             ))}
           </div>
