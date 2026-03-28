@@ -33,26 +33,25 @@ const appStatsImgs = [
     id: 1,
     name: "@mario.lopez",
     description:
-      "I started using Convix in 2026 and it transformed my marketing.\
-      Its AI tools help me grow faster, automate campaigns, and reach the right audience at the right time.",
+      "I started using Convix in 2026 and it completely changed my marketing approach. \
+      Its AI tools make growing faster, automating campaigns, and reaching the right audience effortless.",
     image: new URL("../assets/appStats/img-1.webp", import.meta.url),
   },
   {
     id: 2,
     name: "@xuifang",
     description:
-      "Convix made marketing simple and effective for my business.\
-      The automation and smart insights helped me increase conversions,\
-      save time, and scale my campaigns without stress.",
+      "Convix simplified marketing for my business. \
+      Automation and smart insights boosted conversions, \
+      saved time, and scaled campaigns without hassle.",
     image: new URL("../assets/appStats/img-2.webp", import.meta.url),
   },
   {
     id: 3,
     name: "@shannon_sutton",
     description:
-      "Since switching to Convix, my results have improved dramatically.\
-      Its data-driven approach and powerful analytics allow me to make \
-      better decisions and achieve consistent growth every month.",
+      "Since I switched to Convix, my results improved dramatically. \
+      The data-driven tools let me make better decisions and maintain steady growth every month.",
     image: new URL("../assets/appStats/img-3.webp", import.meta.url),
   },
 ];
@@ -79,25 +78,25 @@ const features = [
   {
     id: 1,
     name: "Engagement",
-    description: "Engage on a deeper level with the fans that matter most",
+    description: "Connect on a deeper level with the fans who matter most",
     icon: new URL("../assets/features/engagement.svg", import.meta.url),
   },
   {
     id: 2,
     name: "Autonomy",
-    description: "Full autonomy on when and who you chose to talk",
+    description: "Full freedom to choose when and who you engage with",
     icon: new URL("../assets/features/autonomy.svg", import.meta.url),
   },
   {
     id: 3,
     name: "Free",
-    description: "No monthly fees or annual subscription fees",
+    description: "No monthly or yearly subscription fees at all",
     icon: new URL("../assets/features/free.svg", import.meta.url),
   },
   {
     id: 4,
     name: "Earn",
-    description: "Add a new source of income that you can control",
+    description: "Add a new income stream that you control completely",
     icon: new URL("../assets/features/earn.svg", import.meta.url),
   },
 ];
@@ -151,7 +150,7 @@ const pricingCards = [
       monthly: "Free",
       annual: "Free",
     },
-    subheading: "Explore our product for free",
+    subheading: "Try our product at no cost",
     bullets: [
       "20 free fantasy reports",
       "Limited access to AI-writer",
@@ -168,7 +167,7 @@ const pricingCards = [
       monthly: "20",
       annual: "228",
     },
-    subheading: "For the ambitious solo professional",
+    subheading: "Ideal for ambitious solo professionals",
     bullets: [
       "50 free fantasy reports",
       "Unlimited access to AI-writer",
@@ -184,7 +183,7 @@ const pricingCards = [
       monthly: "699",
       annual: "7968",
     },
-    subheading: "Licenses for up to 16 members",
+    subheading: "Covers up to 16 team members",
     bullets: [
       "1200 free fantasy reports",
       "Access to AI-writer M2",
@@ -199,7 +198,7 @@ const testimonials = [
   {
     program: "professional",
     description:
-      "Convix has been instrumental in helping me connect with others who share my passions!",
+      "Convix helped me connect with like-minded professionals quickly and efficiently!",
     image: new URL(
       "../assets/testimonials/testimonial-7.webp",
       import.meta.url
@@ -210,7 +209,7 @@ const testimonials = [
   {
     program: "team",
     description:
-      "Collaborating with clients globally has never been easier. Convix is an affordable solution for our team.",
+      "Working with global clients is now effortless. Convix is an affordable, reliable solution.",
     image: new URL(
       "../assets/testimonials/testimonial-6.webp",
       import.meta.url
@@ -221,7 +220,7 @@ const testimonials = [
   {
     program: "personal",
     description:
-      "I love how intuitive and simple the platform is. I got started in less than a day!",
+      "The platform is intuitive and simple. I started using it in less than a day!",
     image: new URL(
       "../assets/testimonials/testimonial-10.webp",
       import.meta.url
@@ -232,7 +231,7 @@ const testimonials = [
   {
     program: "personal",
     description:
-      "Having access to 50 free fantasy reports monthly helps my small business generate consistent leads.",
+      "50 free fantasy reports every month help my small business generate steady leads.",
     image: new URL(
       "../assets/testimonials/testimonial-2.webp",
       import.meta.url
@@ -243,7 +242,7 @@ const testimonials = [
   {
     program: "team",
     description:
-      "The free version of Convix is generous and has helped elevate our business to new heights!",
+      "Convix’s free plan is generous and helped elevate our business significantly.",
     image: new URL(
       "../assets/testimonials/testimonial-3.webp",
       import.meta.url
@@ -254,7 +253,7 @@ const testimonials = [
   {
     program: "team",
     description:
-      "Convix’s customer support has been amazing in guiding me through the platform. Loving it so far!",
+      "The customer support team guided me through the platform perfectly. Loving it!",
     image: new URL(
       "../assets/testimonials/testimonial-1.webp",
       import.meta.url
@@ -265,7 +264,7 @@ const testimonials = [
   {
     program: "personal",
     description:
-      "Launching my music business has been so much easier with Convix’s outreach accelerator.",
+      "Launching my music business is easier with Convix’s outreach accelerator.",
     image: new URL(
       "../assets/testimonials/testimonial-5.webp",
       import.meta.url
@@ -276,7 +275,7 @@ const testimonials = [
   {
     program: "team",
     description:
-      "I wish I had discovered this platform earlier. Convix’s AI writer makes team edits and revisions seamless.",
+      "Convix’s AI writer made team edits and revisions effortless. I wish I found it sooner!",
     image: new URL(
       "../assets/testimonials/testimonial-8.webp",
       import.meta.url
